@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/分析/数学分析/常微分方程.md",
+                "file": "Math/分析/数学分析/常微分方程.md",
                 "mode": "source",
                 "source": false
               },
@@ -36,21 +36,63 @@
             }
           },
           {
-            "id": "23de1c7202605971",
+            "id": "a994e20bedde9a95",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程/markdown web端 项目.md",
+                "file": "Computer/数据通信/华为VRP系统.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "markdown web端 项目"
+              "title": "华为VRP系统"
+            }
+          },
+          {
+            "id": "8479113349bd7adc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer/Software/eNSP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "eNSP"
+            }
+          },
+          {
+            "id": "1ee081d50073cdbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer/计算机网络/数据通信/网络参考模型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "网络参考模型"
+            }
+          },
+          {
+            "id": "d4960531838485c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer/编程/Python.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Python"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -69,7 +111,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "alphabeticalReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -107,7 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 301.5
   },
   "right": {
     "id": "838843b97fc47d93",
@@ -171,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math/分析/数学分析/常微分方程.md",
+                "file": "Computer/编程/Python.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "常微分方程 的大纲"
+              "title": "Python 的大纲"
             }
           }
         ],
@@ -185,7 +227,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 310.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,19 +239,34 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "76adf87747505b5c",
+  "active": "d4960531838485c0",
   "lastOpenFiles": [
-    "计算机/编程/Python.md",
-    "math/分析/函数论",
-    "math/代数",
+    "Computer/计算机网络/A.计算机网络.md",
+    "README.md",
+    "Computer/计算机网络/数据通信/网络参考模型.md",
+    "Computer/计算机网络/数据通信/数据通信网络基础.md",
+    "Computer/计算机网络/数据通信/华为VRP系统基本操作.md",
+    "Computer/计算机网络/数据通信/华为VRP系统.md",
+    "Computer/计算机网络/数据通信/A.数据通信.md",
+    "WiKi.md",
+    "Computer/计算机网络",
+    "Computer/Software/eNSP.md",
+    "Computer/Software/Software.md",
+    "Computer/Software",
+    "未命名.md",
+    "File",
+    "().md",
+    "Math/分析/数学分析/常微分方程.md",
+    "Computer/编程/Python.md",
+    "Math/分析/函数论",
+    "Math/代数",
     "math/函数论",
-    "math/分析/数学分析/重积分.md",
-    "math/分析/数学分析/曲线积分.md",
-    "math/分析/数学分析/曲面积分.md",
-    "math/分析/数学分析/偏微分方程.md",
-    "math/分析/数学分析/常微分方程.md",
-    "math/分析/数学分析/偏导数.md",
-    "math/分析/数学分析",
+    "Math/分析/数学分析/重积分.md",
+    "Math/分析/数学分析/曲线积分.md",
+    "Math/分析/数学分析/曲面积分.md",
+    "Math/分析/数学分析/偏微分方程.md",
+    "Math/分析/数学分析/偏导数.md",
+    "Math/分析/数学分析",
     "math/微积分/常微分方程.md",
     "math/数学分析/重积分.md",
     "math/数学分析/曲面积分.md",
@@ -218,22 +275,8 @@
     "math/数学分析/偏微分方程.md",
     "math/数学分析/偏导数.md",
     "math/数学分析",
-    "math/分析",
+    "Math/分析",
     "math/线性代数",
-    "数学/微积分/常微分方程.md",
-    "math/微积分/重积分.md",
-    "math/微积分/曲线积分.md",
-    "math/微积分/曲面积分.md",
-    "math/微积分/偏微分方程.md",
-    "math/微积分/偏导数.md",
-    "math/微积分",
-    "math",
-    "数学/微积分/偏导数.md",
-    "数学/微积分",
-    "image/瞳瞳.jpg",
-    "计算机.md",
-    "计算机/编程/markdown web端 项目.md",
-    "数学/微积分/曲线积分.md",
-    "数学/微积分/重积分.md"
+    "Image/瞳瞳.jpg"
   ]
 }

@@ -3,5 +3,5 @@
   "digitalRainBrightness": 0.5,
   "enableDynamicEffect": true,
   "backgroundImageFile": "image/瞳瞳.jpg",
-  "blur": 1
+  "blur": 64
 }
