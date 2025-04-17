@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer/计算机网络/A.计算机网络.md",
+                "file": "Computer/Program/Project/Website.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A.计算机网络"
+              "title": "Website"
             }
           }
         ],
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer/计算机网络/A.计算机网络.md",
+                "file": "Computer/Program/Project/Website.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "A.计算机网络 的大纲"
+              "title": "Website 的大纲"
             }
           }
         ],
@@ -241,7 +241,12 @@
   },
   "active": "d4960531838485c0",
   "lastOpenFiles": [
-    "Computer/编程/Python.md",
+    "File/未命名.md",
+    "Computer/Program/Project",
+    "未命名",
+    "Computer/Program/Learn",
+    "Computer/Program/Project/Website.md",
+    "Computer/Program/Learn/Python.md",
     "Computer/计算机网络/A.计算机网络.md",
     "README.md",
     "Computer/计算机网络/数据通信/网络参考模型.md",
@@ -271,12 +276,6 @@
     "math/数学分析/重积分.md",
     "math/数学分析/曲面积分.md",
     "math/数学分析/常微分方程.md",
-    "math/数学分析/曲线积分.md",
-    "math/数学分析/偏微分方程.md",
-    "math/数学分析/偏导数.md",
-    "math/数学分析",
-    "Math/分析",
-    "math/线性代数",
     "Image/瞳瞳.jpg"
   ]
 }
