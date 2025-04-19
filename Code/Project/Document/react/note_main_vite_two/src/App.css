@@ -21,6 +21,18 @@
   margin-top: 10vh;
 }
 
+.same-directory {
+  /* 同目录文件样式 */
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.sub-directory {
+  /* 子目录文件样式 */
+  font-weight: bold;
+  color: #6b7280;
+}
+
 .katex-math {
   @apply overflow-x-auto overflow-y-hidden py-4;
 }

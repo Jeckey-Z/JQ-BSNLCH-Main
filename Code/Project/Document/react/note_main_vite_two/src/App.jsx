@@ -3,8 +3,7 @@ import './App.css';
 import backgroundImage from "/images/girl-magical-reading-book-girly-sparkles-5k-6016x4016-911.jpg";
 import FileList from './components/FileList';
 import MarkdownModal from './components/MarkdownModal';
-import ReactMarkdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
+
 
 const App = () => {
   const [fileList, setFileList] = useState([]);
@@ -26,6 +25,7 @@ const App = () => {
 
   useEffect(() => {
     const fetchMarkdownFiles = async () => {
+      // 使用通配符匹配 public 目录下的任意层级的 Markdown 文件
       const folders = import.meta.glob('/**/*.md', { eager: false });
       const files = [];
       for (const path in folders) {
@@ -36,7 +36,8 @@ const App = () => {
           files.push({
             id: crypto.randomUUID(),
             title: fileName,
-            content
+            content,
+            path // 添加文件路径信息
           });
         } catch (error) {
           console.error('Error fetching Markdown file:', error);
@@ -61,7 +62,7 @@ const App = () => {
   return (
     <div ref={parentRef} className="min-h-screen bg-cover bg-center relative" style={{ backgroundImage: `url(${backgroundImage})`, minHeight: '100vh', overflowX: 'hidden', overflowY: 'auto' }}>
       <div className="parallax-layer absolute inset-0 bg-black opacity-20 transform -translateZ(1px) scale(2)"></div>
-      <nav className="fixed top-0 left-0 right-0 bg-black bg-opacity-20 p-4 z-10">
+      <nav className="fixed top-0 left-1/2 -translate-x-1/2 bg-black bg-opacity-20 p-4 z-10 rounded-md w-3/4">
         <ul className="flex justify-center space-x-4">
           <li><a href="App.jsx" className="text-white hover:text-blue-300">首页</a></li>
           <li><a href="#" className="text-white hover:text-blue-300">关于</a></li>
@@ -74,8 +75,8 @@ const App = () => {
         position: 'relative',
         zIndex: 2
       }}>
-        <h1 className="text-4xl font-bold text-blue-800 mb-4">个人博客</h1>
-        <h2 className="text-2xl font-bold text-gray-700 mb-2">文件列表</h2>
+        <h1 className="text-4xl font-bold text-blue-800 mb-4">Home_Main</h1>
+        <h2 className="text-2xl font-bold text-gray-700 mb-2">Main_Start</h2>
         <FileList fileList={fileList} openFile={openFile} />
       </div>
       {selectedFile && <MarkdownModal selectedFile={selectedFile} closeFile={closeFile} scrollPosition={scrollPositionRef.current} />}
