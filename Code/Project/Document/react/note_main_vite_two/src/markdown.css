@@ -1,0 +1,43 @@
+/* Markdown 渲染内容的全局样式 */
+.markdown-theme {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Markdown 一级标题样式 */
+.markdown-theme h1 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Markdown 二级标题样式 */
+.markdown-theme h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+}
+
+/* Markdown 三级标题样式 */
+.markdown-theme h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+
+/* Markdown 段落样式 */
+.markdown-theme p {
+    margin-bottom: 1rem;
+}
+
+/* Markdown 链接样式 */
+.markdown-theme a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Markdown 链接悬停样式 */
+.markdown-theme a:hover {
+    text-decoration: underline;
+}
