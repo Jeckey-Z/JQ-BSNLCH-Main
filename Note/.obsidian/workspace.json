@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer/Program/Learn/Python.md",
+                "file": "Math/分析/数学分析/偏导数.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python"
+              "title": "偏导数"
             }
           },
           {
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer/Program/Learn/Python.md",
+                "file": "Math/分析/数学分析/偏导数.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Python 的大纲"
+              "title": "偏导数 的大纲"
             }
           }
         ],
@@ -255,9 +255,9 @@
   },
   "active": "8479113349bd7adc",
   "lastOpenFiles": [
+    "Computer/Program/Learn/Python.md",
     "Math/分析/数学分析/偏导数.md",
     "Computer/Program/Learn/JavaScript.md",
-    "Computer/Program/Learn/Python.md",
     "Computer/Software/eNSP.md",
     "Computer/Program/Project/Website.md",
     "Computer/Program/Project",

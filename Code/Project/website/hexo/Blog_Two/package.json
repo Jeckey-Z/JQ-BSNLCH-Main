@@ -12,6 +12,7 @@
     "version": "7.3.0"
   },
   "dependencies": {
+    "@neilsustc/markdown-it-katex": "^1.0.0",
     "@renbaoshuo/markdown-it-katex": "^2.0.2",
     "hexo": "^7.3.0",
     "hexo-deployer-git": "^4.0.0",
@@ -32,6 +33,7 @@
     "hexo-theme-butterfly": "^5.3.5",
     "hexo-theme-landscape": "^1.0.0",
     "hexo-wordcount": "^6.0.1",
-    "katex": "^0.16.22"
+    "katex": "^0.16.22",
+    "markdown-it-texmath": "^1.0.0"
   }
 }

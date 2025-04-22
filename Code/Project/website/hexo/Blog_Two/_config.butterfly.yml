@@ -465,28 +465,26 @@ busuanzi:
 math:
   # Choose: mathjax, katex
   # Leave it empty if you don't need math
-  use: katex
+  use: mathjax
   per_page: true
   hide_scrollbar: false
 
   mathjax:
     # Enable the contextual menu
     enableMenu: true
+    copy_tex: true
     # Choose: all / ams / none, This controls whether equations are numbered and how
     tags: none
+    config:
+      tex:
+        inlineMath: [ ['$', '$'], ['\\(', '\\)'] ]
+        displayMath: [ ['$$', '$$'], ['\\[', '\\]'] ]
+    cdn: //cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
   katex: 
-    enable: true
+    enable: false
     # Enable the copy KaTeX formula
     copy_tex: true
-    options:
-      delimiters:
-        - left: "\\("
-          right: "\\)"
-          display: false # 行内公式
-        - left: "\\["
-          right: "\\]"
-          display: true # 块级公式
 
 # --------------------------------------
 # Search
@@ -830,10 +828,10 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work
 font:
-  global_font_size:
-  code_font_size:
-  font_family:
-  code_font_family:
+  global_font_size: '18px'
+  code_font_size: '18px'
+  font_family: consolas, 'Courier New', Micrsoft YaHei, sans-serif
+  code_font_family: consolas, Menlo
 
 # Font settings for the site title and site subtitle
 blog_title_font:
@@ -1060,6 +1058,7 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
+    - <link rel="stylesheet" href="/css/font.css">
   bottom:
     # - <script src="xxxx"></script>
 
