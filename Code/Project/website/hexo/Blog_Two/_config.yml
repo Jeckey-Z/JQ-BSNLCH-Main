@@ -110,3 +110,16 @@ search:
   path: search.xml
   field: all
   content: true
+
+# Katex
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+  plugins:
+  anchors:
+    level: 1
+    collisionSuffix: ''
