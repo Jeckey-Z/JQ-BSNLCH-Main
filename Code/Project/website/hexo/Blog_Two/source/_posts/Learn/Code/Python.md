@@ -54,8 +54,7 @@ python -m venv My_venv
 #### 激活环境
 
 ```shell
-cd My_venv/Scripts
-source activate
+source My_venv/Scripts/activate
 ```
 
 ### virtualenv

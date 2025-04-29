@@ -28,7 +28,10 @@ django-admin startproject MyProject
 -- manage.py
 ```
 
-
+- **启动项目**
+```shell
+python manage.py runserver
+```
 
 
 
@@ -60,12 +63,13 @@ python -m venv My_venv
 
 * **激活虚拟环境**
 ```bash
-cd My_venv/Scripts
-
-source activate
+source My_venv/Scripts/activate
 ```
 
-
+- **关闭虚拟环境**
+```shell
+deactivate
+```
 
 
 ###### virtualenv
